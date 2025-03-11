@@ -12,4 +12,5 @@
     flex-wrap: wrap;
     position: fixed;
     align-content: flex-start;
+    padding-top: 2%;
 }
