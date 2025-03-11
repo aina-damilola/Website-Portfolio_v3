@@ -1,10 +1,15 @@
 #main_mp{
     background-color: rgba(153, 205, 50, 0.458);
-    height: 100vh;
+    height: calc(100vh - 5%);
     width: 100vw;
     z-index: 2;
-    background-image: url('../../assets/windows_background.jpg');
+    background-image: url('../../assets/windows_background2.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: fixed;
+    align-content: flex-start;
 }

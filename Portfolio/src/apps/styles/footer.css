@@ -35,7 +35,7 @@
 
 #recents_ft{
     flex: 1;
-    border: solid;
+    /* border: solid; */
     margin-right: 2.5%;
 }
 
