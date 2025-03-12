@@ -1,3 +1,4 @@
+import Folder from "./folder";
 import "./styles/main_page.css"
 import Text_file from "./text_file";
 
@@ -11,7 +12,8 @@ function Main_page(){
             <Text_file id = '5' name = "egg"/>
             <Text_file id = '6' name = "fruit"/>
             <Text_file id = '7' name = "gold"/>
-            <Text_file id = '8' name = "happy"/>            
+            <Text_file id = '8' name = "happy"/>   
+            <Folder/>     
         </div>
     )
 }

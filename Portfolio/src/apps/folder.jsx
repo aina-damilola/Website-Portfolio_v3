@@ -1,9 +1,8 @@
 import "./styles/file.css"
 import { useState } from "react";
-import icon_tf from "../assets/text_file_icon.png"
-import Inner_text from "./inner_text";
+import icon_tf from "../assets/folder.png"
 
-function Text_file(props){
+function Folder(props){
     const [open, setOpen] = useState(false);
 
     const handleOpen = () => {
@@ -17,11 +16,11 @@ function Text_file(props){
         <>
         <button id="main_tf" className="blue" onClick={handleOpen}>
             <img id="icon_tf" src={icon_tf}/>
-            <p id="file_name_tf" >{props.name}.txt</p>
+            <p id="file_name_tf" >{props.name}</p>
         </button>
-        {open ? <Inner_text text = {props.saved_text} func = {handleClose} title = {props.name}/> : <></>}
+        {open ? <Inner_folder func = {handleClose} title = {props.name}/> : <></>}
         </>
     )
 }
 
-export default Text_file;
+export default Folder;
