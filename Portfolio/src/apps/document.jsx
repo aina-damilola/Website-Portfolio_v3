@@ -1,8 +1,8 @@
-import "./styles/file.css"
+import "./styles/Document.css"
 import { useState } from "react";
-import icon_tf from "../assets/folder.png"
+import Inner_content from "./inner_content";
 
-function Folder(props){
+function Document(props){
     const [open, setOpen] = useState(false);
 
     const handleOpen = () => {
@@ -15,12 +15,12 @@ function Folder(props){
     return(
         <>
         <button id="main_tf" className="blue" onClick={handleOpen}>
-            <img id="icon_tf" src={icon_tf}/>
+            <img id="icon_tf" src={props.icon}/>
             <p id="file_name_tf" >{props.name}</p>
         </button>
-        {open ? <Inner_folder func = {handleClose} title = {props.name}/> : <></>}
+        {open ? <Inner_content content = {props.content} func = {handleClose} title = {props.name} bg = {props.bg} display = {props.display}/> : <></>}
         </>
     )
 }
 
-export default Folder;
+export default Document;

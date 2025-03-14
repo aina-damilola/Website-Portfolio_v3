@@ -3,17 +3,19 @@
 #main_tf{
     
     /* color: black; */
-    width: 5%;
+    width: 75px;
     /* height: 10%; */
-    margin: 1%;
+    margin: 10px;
     display: flex;
     flex-direction: column;
-    padding: 0;
+    padding: 3px;
+    /* border: solid; */
     
 }
 
 #icon_tf{
-    width: 100%;
+    align-self: center;
+    width: 80%;
     /* border: solid; */
     color: red;
 }

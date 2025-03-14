@@ -4,9 +4,9 @@
     position: fixed;
     bottom: 0px;
     width: 100%;
-    height: 5%;
+    height: 4%;
     background-color: rgba(50, 50, 50, 1);
-    z-index: 3;
+    z-index: 99999;
     display: flex;
     flex-direction: row;
 }
@@ -78,7 +78,10 @@
 }
 
 .grey{
-    transition: 100ms;
+    transition: 200ms;
+    border: solid;
+    border-width: 1px;
+    border-color: rgba(0,0,0,0);
 }
 
 .grey:hover{
