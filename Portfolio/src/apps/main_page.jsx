@@ -9,12 +9,14 @@ import shortcut from "../assets/chrome_shortcut.png"
 
 import About_txt from "./content/about_txt.jsx"
 import MakeUofT_pics from "./content/makeuoft2025pics.jsx"
+import Experience from "./content/pro_experience/pro_experience.jsx";
 
 function Main_page(){
     return(
 
         <div id="main_mp">
             <Document icon = {text_file} bg = "#faf9f6" name = "About.txt" content = {<About_txt/>}/>
+            <Document icon = {text_file} bg = "#faf9f6" name = "Professional Experience.txt" content = {<Experience/>}/>
             <Document icon = {folder} bg = "#323232" name = "MakeUofT 2025 pics" display = "flex" content = {<MakeUofT_pics/>}/>
             <Shortcut icon = {shortcut} name = "source code" link = "https://github.com/aina-damilola/Website-Portfolio_v3"/>
         </div>
