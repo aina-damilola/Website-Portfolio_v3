@@ -2,7 +2,7 @@ import "./styles/inner_content.css";
 import { useState, useRef } from "react";
 
 function Inner_content(props) {
-    const [position, setPosition] = useState({ top: 150, left: 150 });
+    const [position, setPosition] = useState({ top: 100, left: 125 });
     const [size, setSize] = useState({width: 50, height:50});
     const drag = useRef(null);
     const isDragging = useRef(false);

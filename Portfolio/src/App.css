@@ -9,7 +9,7 @@
   position: fixed;
   /* border: solid; */
   z-index: 99999;
-  bottom: 4.5%;
+  bottom: 7.5%;
   right: 3.40%;
   color: rgba(150, 150, 150, 0.8);
   font-size: 15px;
@@ -22,6 +22,10 @@
 #message p{
   margin: 0;
   /* border: solid; */
+}
+
+.global_grey{
+  color: grey;
 }
 
 /* font-size: 15px; */
