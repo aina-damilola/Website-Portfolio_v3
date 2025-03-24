@@ -6,7 +6,7 @@ import Shortcut from "../../shortcut.jsx";
 function Text(){
     return(
         <>
-            <b>NSBE Hacks 2025 Website </b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i>Oct 2024 - Jan 2025</i>
+            <b>NSBE Hacks 2025 Website </b> 
             <hr/>
             As the lead web developer for the National Society of Black Engineers UofT, I programmed, designed and deployed the website for their most recent hackathon, NSBE Hacks 2025. <a href="https://nsbehacksuoft.ca/" target="_blank">nsbehacksuoft.ca</a>. Managed cross platform compatibility and optimized client-side rendering.
             <br/>
