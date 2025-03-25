@@ -3,15 +3,7 @@ import "./pro_experience.css"
 function Experience(){
     return(
         <div id="pro_experience">
-            <h1>WORK EXPERIENCE</h1>
-           
-            <h2>Bike Camp Instructor<span className="right">Jun 2021 - Aug 2023</span></h2>
-            <h3>Pedalheads Bike Camp<span className="right">Calgary, Alberta</span></h3>
-            <ul>
-                <li>Trained over 100 students with interactive lessons, achieving a 99.5% success rate in independent riding and earning frequent commendation from parents for professionalism and teaching effectiveness.</li>
-                <li>Led health and safety best practices, focusing on bike quality and ability to perform without accidents, maintaining a record of zero serious injuries over three summers.</li>
-                <li>Documented students' weekly progress using performance metrics, reporting results to managers and parents.</li>
-            </ul>
+
             <h1>EXTRACURRICULAR & VOLUNTEER EXPERIENCE</h1>
            
             <h2>Lead Web Developer<span>Oct 2024 - Present</span></h2>
@@ -37,6 +29,15 @@ function Experience(){
                 <li>Packaged and dispatched food hampers, ensuring alignment with guidelines and accommodating special dietary needs, while maintaining a focus on balanced nutrition for families and individuals.</li>
                 <li>Ensured safety and collaboration, adhering to sanitation and health regulations, working closely with team members, and resolving challenges to maintain smooth daily operations.</li>
             </ul>
+            <h1>WORK EXPERIENCE</h1>
+           
+           <h2>Bike Camp Instructor<span className="right">Jun 2021 - Aug 2023</span></h2>
+           <h3>Pedalheads Bike Camp<span className="right">Calgary, Alberta</span></h3>
+           <ul>
+               <li>Trained over 100 students with interactive lessons, achieving a 99.5% success rate in independent riding and earning frequent commendation from parents for professionalism and teaching effectiveness.</li>
+               <li>Led health and safety best practices, focusing on bike quality and ability to perform without accidents, maintaining a record of zero serious injuries over three summers.</li>
+               <li>Documented students' weekly progress using performance metrics, reporting results to managers and parents.</li>
+           </ul>
            
             <h1>AWARDS</h1>
             <ul style={{fontWeight: '600'}}>

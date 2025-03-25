@@ -8,6 +8,7 @@
     flex-direction: column;
     padding: 3px;
     /* border: solid; */
+    position: relative;
     
 }
 
@@ -29,6 +30,29 @@
     font-weight: 400;
     font-size: 12.5px;
     
+}
+
+#main_tf:hover #hover{
+    display: inline-block;
+}
+
+#hover{
+    display: none;
+    position: absolute;
+    left: 120%;
+    top: -10%;
+    border: solid;
+    border-width: 1px;
+    background-color: rgba(168, 168, 168, 0.904);
+    border-color: rgb(190, 190, 190);
+    color: #2e2e2e;
+    width: 150px;
+    min-height: 50px;
+    font-size: 12.5px;
+    flex-wrap: wrap;
+    padding: 5%;
+    text-align: left;
+    z-index: 99999;
 }
 
 .blue{

@@ -1,0 +1,3 @@
+<Document icon = {text_file} bg = "#faf9f6" name = ".txt" display = "block" content = {<></>} short="" category="" skills = {<Container skills={[react, js, threejs, html, css]}/>}/>
+<Document icon = {folder} bg = "#323232" name = " display = "flex" content = {<></>} short="" category=""/>
+<Shortcut icon = {shortcut} name = "" link = ""/>

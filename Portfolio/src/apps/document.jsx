@@ -29,8 +29,17 @@ function Document(props){
         <button id="main_tf" className="blue" onClick={handleOpen}>
             <img id="icon_tf" src={props.icon}/>
             <p id="file_name_tf" >{props.name}</p>
+            {props.short ? 
+                <div id="hover" className="inter">
+                    <b><i>{props.category}</i></b><b>
+                    {props.category ? <><hr/>{props.skills}<br/></> : <></>}
+                
+                    Properties:</b> {props.short}
+                </div> 
+            : <></>}
         </button>
         {open ? <Inner_content content = {props.content} func = {handleClose} title = {props.name} bg = {props.bg} display = {props.display} increaseZ = {increaseZ} z = {highestZ}/> : <></>}
+        
         </>
     )
 }
