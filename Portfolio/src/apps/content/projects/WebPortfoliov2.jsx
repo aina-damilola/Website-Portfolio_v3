@@ -27,7 +27,7 @@ function Portfoliov2(){
     return(
         <>
             <Document icon = {text_file} bg = "#faf9f6" name = "ReadMe" display = "block" content = {<Text/>}/>
-            <Shortcut icon = {shortcut} name = "Student Portfolio" link = "https://www.aina-damilola.tech"/>
+            {/* <Shortcut icon = {shortcut} name = "Student Portfolio" link = "https://www.aina-damilola.tech"/> */}
             <Shortcut icon = {shortcut} name = "source code" link = "https://github.com/aina-damilola/Website-Portfolio_v2"/>
         </>
     )   
