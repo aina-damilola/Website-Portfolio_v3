@@ -28,7 +28,7 @@ function Brain(){
     return(
         <>
             <Document icon = {text_file} bg = "#faf9f6" name = "ReadMe" display = "block" content = {<Text/>}/>
-            <Document icon = {thumbnail} bg = "#323232" name = "Demo Video" display = "block" content = {<video height='100%' controls><source src={video} type="video/mp4"/></video>} showShort="true" short="video demo of our CNN model"/>
+            <Document icon = {thumbnail} bg = "#323232" name = "Demo Video.mp4" display = "block" content = {<video height='100%' controls><source src={video} type="video/mp4"/></video>} short="video demo of our CNN model"/>
             <Shortcut icon = {shortcut} name = "source code" link = "https://github.com/aina-damilola/Brain-Tumor-Detection.git"/>
         </>
     )   

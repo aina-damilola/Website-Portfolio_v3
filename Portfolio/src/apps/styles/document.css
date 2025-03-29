@@ -14,7 +14,9 @@
 
 #icon_tf{
     align-self: center;
-    width: 80%;
+    max-width: 80%;
+    max-height: 55px;
+
     /* border: solid; */
     color: red;
 }

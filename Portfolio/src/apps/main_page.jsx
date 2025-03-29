@@ -8,7 +8,6 @@ import shortcut from "../assets/chrome_shortcut.png"
 import settings from "../assets/settings.png"
 
 import About_txt from "./content/about_txt.jsx"
-import MakeUofT_pics from "./content/makeuoft2025pics.jsx"
 import Experience from "./content/pro_experience/pro_experience.jsx";
 import Settings from "./settings.jsx";
 import Projects from "./content/projects.jsx";
@@ -20,7 +19,6 @@ function Main_page(){
             
             <Document icon = {text_file} bg = "#faf9f6" name = "About.txt" display = "block" content = {<About_txt/>}  short="an overview of who I am and my skills."/>
             <Document icon = {text_file} bg = "#faf9f6" name = "Professional Experience.txt" display = "block" content = {<Experience/>}  short="my volunteer, extracurricular and work experiences."/>
-            {/* <Document icon = {folder} bg = "#323232" name = "MakeUofT 2025 pics" display = "flex" content = {<MakeUofT_pics/>}/> */}
             {/* <Document icon = {settings} bg = "#323232" name = "Settings" display = "flex" content = {<Settings/>}/> */}
             <Document icon = {folder} bg = "#323232" name = "Projects" display = "flex" content = {<Projects/>} short="highlight of my projects with demos and source codes" />
             <Shortcut icon = {shortcut} name = "source code" link = "https://github.com/aina-damilola/Website-Portfolio_v3"/>
