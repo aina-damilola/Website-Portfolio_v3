@@ -6,7 +6,7 @@ import min from "../assets/minimize.svg"
 import close from "../assets/close.svg"
 
 function Inner_content(props) {
-    const [position, setPosition] = useState({ top: 100, left: 125 });
+    const [position, setPosition] = useState({ top: 100, left: 125});
     const [size, setSize] = useState({width: 50, height:50});
     const drag = useRef(null);
     const isDragging = useRef(false);
@@ -62,6 +62,8 @@ function Inner_content(props) {
         props.increaseZ();
         setMaximized(!maximized)
     }
+
+    const [pos, setPos] = useState({ pos: "absolute"});
 
     return (
         <div id="main_it" style={{ top: `${position.top}px`, left: `${position.left}px`, width: `${size.width}vw`, height: `${size.height}vh`, zIndex: `${props.z}`}}>

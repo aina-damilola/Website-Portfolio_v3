@@ -1,5 +1,6 @@
 #main_it{
-    position: fixed;
+    position: absolute;
+
     display: flex;
     border: solid;
     width: 50vw;
